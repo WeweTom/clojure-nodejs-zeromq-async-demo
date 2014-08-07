@@ -1,4 +1,4 @@
-# clojure Node.js connected through zeromq-async 
+# clojure Node.js messaging through zeromq-async 
 
 Clojure receive message from Node.js through Zeromq —— RPC is possible !
 
@@ -19,6 +19,10 @@ Clojure receive message from Node.js through Zeromq —— RPC is possible !
 7. lein repl # after some deps installed , the repl launched
 8. (start-clj-pull-client) # 3. in lein repl excute the function, now setup a
    ZeroMQ pull client in Clojure !!
+
+![code](https://lh6.googleusercontent.com/-mVwhRUcYzZo/U-NZ68zJNTI/AAAAAAAAC9k/_zzHWJBFEQA/w1422-h1424-no/clj_zmq_node.png)
+
+![demo](https://lh6.googleusercontent.com/-V_Fjwl66P-g/U-NZ67H9YNI/AAAAAAAAC9w/j6EgFfAF9Yo/w1412-h1424-no/clj_zmq_term.png)
 
 ## License
 
