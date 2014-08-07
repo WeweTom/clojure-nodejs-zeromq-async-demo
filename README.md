@@ -9,7 +9,7 @@ Clojure receive message from Node.js through Zeromq —— RPC is possible !
 
 ## Usage
 
-1. git clone
+1. git clone https://github.com/WeweTom/clojure-nodejs-zeromq-async-demo.git
 2. cd node-code
 3. npm install # Node.js deps
 4. node zeromq-push-server.js # 1. now you have setup a ZeroMQ push server
