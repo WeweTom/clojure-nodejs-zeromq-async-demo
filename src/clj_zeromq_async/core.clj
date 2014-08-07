@@ -4,7 +4,7 @@
 (require '[com.keminglabs.zmq-async.core :refer [register-socket!]]
          '[clojure.core.async :refer [>! <! go chan sliding-buffer close!]])
 
-(defn start
+(defn start-clj-pull-client
   []
   (let [;; zeromq-push-server.js 会监听这个 tcp 端口
         addr "tcp://0.0.0.0:4242" 
