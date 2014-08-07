@@ -17,7 +17,7 @@ $ npm install                # Node.js deps
 $ node zeromq-push-server.js # 1. now you have setup a ZeroMQ push server
 $ # in terminal 2
 $ node zeromq-pull-client.js # 2. now you have setup a ZeroMQ pull client , you will get messages in terminal
-$ # in terminal 3
+$ # in terminal 3 , cd to lein project root : clojure-nodejs-zeromq-async-demo
 $ lein repl                  # after some deps installed , the repl launched
 $ (start-clj-pull-client)    # 3. in lein repl excute the function, now setup a ZeroMQ pull client in Clojure !!
 ```
